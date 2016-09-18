@@ -18,8 +18,13 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  background-color: #e2e2e2;
+}
+
 section {
-  background-color:#e2e2e2;
+  margin: 1rem;
 }
 
 .btn {
@@ -46,19 +51,28 @@ section {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 130%;
+    font-size: 120%;
     line-height: 1.5;
   }
 }
+
+@media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+      line-height: 1.5;
+    }
+}
+
 
 @media only screen and (min-width: 90em) {
 
