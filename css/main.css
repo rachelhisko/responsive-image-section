@@ -43,6 +43,7 @@ a {
   font-size: 1rem;
   border: 3px solid #555;
   text-align: center;
+  margin-top: 1rem;
 }
 
 div {
@@ -54,6 +55,7 @@ div {
   display: block;
   max-width: 100%;
   width: 100%;
+  margin-top: 0.5rem;
 }
 
 p {
@@ -103,13 +105,4 @@ a:hover {
     font-size: 130%;
     line-height: 1.5;
   }
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-    line-height: 1.5;
-  }
-
 }
