@@ -46,8 +46,12 @@ a {
   border: 3px solid #555;
 }
 
+  div {
+    display: inline-block;
+  }
+
 .img-flex {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   width: 100%;
 }
@@ -67,6 +71,11 @@ a {
     line-height: 1.4;
   }
 
+  .img-flex,
+  div {
+    width: 49%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -75,6 +84,7 @@ a {
     font-size: 120%;
     line-height: 1.5;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
