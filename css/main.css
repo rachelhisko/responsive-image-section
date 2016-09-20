@@ -47,6 +47,7 @@ a {
 
 div {
   display: inline-block;
+  text-align: left;
 }
 
 .img-flex {
