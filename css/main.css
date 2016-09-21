@@ -31,17 +31,12 @@ a {
   padding: 2rem;
   background-color: #555;
   border-radius: 4px;
-}
-
-.btn {
   color: #fff;
   text-decoration: none;
-  background-color: #555;
   padding: 0.5em;
   border-radius: 4px;
   display: inline-block;
   font-size: 1rem;
-  border: 3px solid #555;
   text-align: center;
   margin-top: 1rem;
 }
@@ -63,7 +58,7 @@ p {
 }
 
 a:hover {
-  background-color: #555;
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
