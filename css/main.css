@@ -24,7 +24,8 @@ body {
 }
 
 section {
-  margin: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
 a {
@@ -37,13 +38,13 @@ a {
   border-radius: 4px;
   display: inline-block;
   font-size: 1rem;
-  text-align: center;
   margin-top: 1rem;
 }
 
 div {
   display: inline-block;
   text-align: left;
+  padding: 1rem;
 }
 
 .img-flex {
@@ -76,16 +77,11 @@ a:hover {
     line-height: 1.4;
   }
 
-  .img-flex {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  div {
+  .img-flex, div {
     width: 49%;
     display: inline-block;
     vertical-align: middle;
+    max-width: 520px;
   }
 
 }
